@@ -1,0 +1,88 @@
+body {
+  padding: 50px;
+  margin: 20px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav { 
+  width: auto;
+  background-color: #ff9dd3;
+  color: color;
+  padding: 10px;
+  position: relative;
+  top: 0;
+  left: 0;
+  font-size: 25px;
+}
+
+nav ul li a {
+  font-weight: bolder;
+  list-style-type: disc;
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 8px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+.title {
+  font-size: 25px;
+  background-color: rgb(148, 255, 255);
+  padding: 0;
+  padding-right: 10px;
+  padding-left: 30px;
+  top: 0;
+  margin: 0;
+  width: 20vw;
+  border-right: solid 4px black;
+  z-index: 1;
+  align-content: center;
+}
+
+.title p {
+  font-size: 2.4vh;
+  margin-top: -22px;
+}
+
+.headline {
+  font-size: 5vh;
+  letter-spacing: 15px;
+  font-style: italic;
+  background-color: rgb(175, 255, 194);
+  flex: 1;
+  margin-left: 5px;
+  padding-left: 20px;
+  padding-right: 30px;
+  line-height: 35px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+}
+
+.headline a {
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+
+#graphics {
+  align-items: center;
+  font-size: 40px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 90vw;
+  justify-items: center;
+}
