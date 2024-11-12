@@ -1,0 +1,2 @@
+cd myexpressapp
+npm start
